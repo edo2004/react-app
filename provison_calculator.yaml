@@ -43,7 +43,7 @@
     shell: sudo docker ps
 
   - name: run docker image
-    shell: sudo docker run -d --name first-app -p 3000:3000 spplit/primerproyecto #edo2004/first-app:v1
+    shell: sudo docker run -d --name first-app -p 3000:3000 edo2004/first-app:v2
 
   - name: show running images
     shell: sudo docker images
